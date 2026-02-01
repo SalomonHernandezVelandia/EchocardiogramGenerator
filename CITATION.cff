@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Echocardiogram Image Generation using Generative Learning Strategies"
+message: "If you use this software, please cite the associated conference paper."
+type: software
+authors:
+  - given-names: Salomón
+    family-names: Hernández Velandia
+    affiliation: Universidad Nacional de Colombia Researcher
+version: 1.0.0
+date-released: 2025-01-01
+doi: 10.1109/SIPAIM67325.2025.11283212
+url: https://github.com/SalomonHernandezVelandia/EchocardiogramGenerator.git
+
+preferred-citation:
+  type: conference-paper
+  authors:
+    - given-names: Salomón
+      family-names: Hernández Velandia
+  title: "Comparative Study of Methods for Generating Echocardiographic Images"
+  booktitle: "SIPAIM"
+  year: 2025
+  doi: 10.1109/SIPAIM67325.2025.11283212
