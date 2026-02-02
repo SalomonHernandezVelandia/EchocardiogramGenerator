@@ -53,10 +53,51 @@ A preprint version of the thesis is available in the `publications/thesis/` dire
 ## 🗂️ Repository Structure
 
 ```text
-├── notebooks/              # Jupyter notebooks used during development and experiments
-├── src/                    # Core source code (training, evaluation, utilities)
+ecocardiogram-gan-thesis/
+│
+├── README.md
+├── LICENSE
+├── LICENSE_DATA
+├── CITATION.cff
+├── requirements.txt
+│
+├── experiments/
+│   ├── stylegan2_ada/
+│   |   └── metrics.csv...
+│   ├── medgan/
+│   ├── wgan/
+│   └── vqgan/
+│
+├── external/
+│   ├── README.md
+│   └── stylegan2-ada/   # submodule o instrucción de clonación
+│
+├── publications/
+│   ├── sipaim/
+│   └── thesis/
+│
+├── training/
+│   ├── StyleGan2_Ada.ipynb
+│   ├── MedGAN.ipynb
+│   ├── WGAN.ipynb
+│
+├── src/
+│   ├── medgan/
+│   │   ├── dcgan.py
+│   │   ├── mlp.py
+│   │   ├── utils.py
+│   |
+│   ├── preprocessing/
+│   │   ├── comprobacion_sistole.py
+│   │   ├── convertirZIP.py
+│   │   ├── extractionframes.py
+│   │   ├── visualizacion_mask.py
+│   │   ├── visualizacion_binarizacion.py
+│   │
+
+
+
 ├── configs/                # Configuration files for different architectures and experiments
-├── experiments/            # Logs and metadata for each experimental run
 ├── results/                # Quantitative and qualitative results
 ├── generated_samples/      # Synthetic echocardiographic images
 ├── checkpoints/            # Trained model checkpoints (if applicable)
