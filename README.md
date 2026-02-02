@@ -79,26 +79,49 @@ ecocardiogram-gan-thesis/
 ├── training/
 │   ├── StyleGan2_Ada.ipynb
 │   ├── MedGAN.ipynb
-│   ├── WGAN.ipynb
+│   └── WGAN.ipynb
 │
 ├── src/
 │   ├── medgan/
 │   │   ├── dcgan.py
 │   │   ├── mlp.py
-│   │   ├── utils.py
+│   │   └── dztaset.py
 │   |
 │   ├── preprocessing/
 │   │   ├── comprobacion_sistole.py
 │   │   ├── convertirZIP.py
 │   │   ├── extractionframes.py
 │   │   ├── visualizacion_mask.py
-│   │   ├── visualizacion_binarizacion.py
+│   │   └── visualizacion_binarizacion.py
 │   │
-
+├── results/
+│   ├── stylegan2_ada/
+│   |   ├── line_graph/
+│   |   ├── losses/
+│   |   ├── radar_graph/
+│   |   └── violin_boxplot_graph/
+│   |
+│   ├── medgan/
+│   |   ├── line_graph/
+│   |   ├── losses/
+│   |   ├── radar_graph/
+│   |   └── violin_boxplot_graph/
+│   |
+│   ├── wgan/
+│   |   ├── line_graph/
+│   |   ├── losses/
+│   |   ├── radar_graph/
+│   |   └── violin_boxplot_graph/
+│   |
+│   └── vqgan/
+│   |   ├── line_graph/
+│   |   ├── losses/
+│   |   ├── radar_graph/
+│   |   └── violin_boxplot_graph/
+│   |
 
 
 ├── configs/                # Configuration files for different architectures and experiments
-├── results/                # Quantitative and qualitative results
 ├── generated_samples/      # Synthetic echocardiographic images
 ├── checkpoints/            # Trained model checkpoints (if applicable)
 ├── publications/           # Thesis and paper preprints
