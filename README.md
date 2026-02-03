@@ -60,13 +60,33 @@ ecocardiogram-gan-thesis/
 ├── LICENSE_DATA
 ├── CITATION.cff
 ├── requirements.txt
-│
+|
 ├── experiments/
 │   ├── stylegan2_ada/
-│   |   └── metrics.csv...
+│   │   ├── E1/
+│   │   │   ├── checkpoints/
+│   │   │   │   └── .....pth
+│   │   │   ├── generated_samples/
+│   │   │   │   ├── generated_0.png
+│   │   │   │   └── generated_25.png
+│   │   │   ├── metrics_csv/
+│   │   │   │   ├── metrics.csv
+│   │   │   │   └── losses.csv
+│   │   │   └── samples/
+│   │   │
+│   │   ├── E2/
+│   │   ├── E3/
+│   │   └── E4/
+│   │
 │   ├── medgan/
+│   │   ├── M1/
+│   │   └── ...
+│   │
 │   ├── wgan/
+│   │   └── ...
+│   │
 │   └── vqgan/
+│       └── ...
 │
 ├── external/
 │   ├── README.md
@@ -114,17 +134,13 @@ ecocardiogram-gan-thesis/
 │   |   └── violin_boxplot_graph/
 │   |
 │   └── vqgan/
-│   |   ├── line_graph/
-│   |   ├── losses/
-│   |   ├── radar_graph/
-│   |   └── violin_boxplot_graph/
-│   |
+│       ├── line_graph/
+│       ├── losses/
+│       ├── radar_graph/
+│       └── violin_boxplot_graph/
+│   
 
-<<<<<<< HEAD
 
-=======
-11
->>>>>>> f1b52440 (Se agregaron los checkpoint de las segundas configuraciones de cada arquitectura  junto a sus imagenes generadas.)
 ├── configs/                # Configuration files for different architectures and experiments
 ├── generated_samples/      # Synthetic echocardiographic images
 ├── checkpoints/            # Trained model checkpoints (if applicable)

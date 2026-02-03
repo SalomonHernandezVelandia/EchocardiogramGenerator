@@ -4,9 +4,9 @@ data/frames_extraidos/**
 # Ignorar carpeta dentro de external
 external/stylegan2-ada/
 
-# Ignorar todo en checkpoints
-checkpoints/*
+# Ignorar TODOS los checkpoints en cualquier parte del repo
+**/checkpoints/
 
-# PERO permitir README
-!checkpoints/README.md
+# Permitir README dentro de checkpoints (si lo usas)
+!**/checkpoints/README.md
 
