@@ -1,5 +1,5 @@
 # Ignorar carpeta dentro de data
-data/framesextraidos/
+data/frames_extraidos/**
 
 # Ignorar carpeta dentro de external
 external/stylegan2-ada/
