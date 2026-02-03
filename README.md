@@ -120,7 +120,11 @@ ecocardiogram-gan-thesis/
 │   |   └── violin_boxplot_graph/
 │   |
 
+<<<<<<< HEAD
 
+=======
+11
+>>>>>>> f1b52440 (Se agregaron los checkpoint de las segundas configuraciones de cada arquitectura  junto a sus imagenes generadas.)
 ├── configs/                # Configuration files for different architectures and experiments
 ├── generated_samples/      # Synthetic echocardiographic images
 ├── checkpoints/            # Trained model checkpoints (if applicable)
