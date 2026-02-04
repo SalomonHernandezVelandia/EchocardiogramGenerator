@@ -1,5 +1,9 @@
 # Echocardiogram Image Generation using Generative Learning Strategies
 
+<p align="center">
+  <img src="assets/generated_style.gif" width="600"/>
+</p>
+
 This repository contains the code, experimental setup, and results associated with the research project:
 
 **"Generación de imágenes de ecocardiogramas mediante estrategias de aprendizaje generativo"**
