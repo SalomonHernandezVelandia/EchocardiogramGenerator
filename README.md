@@ -1,7 +1,7 @@
 # Echocardiogram Image Generation using Generative Learning Strategies
 
 <p align="center">
-  <img src="assets/generated_style.gif" width="600"/>
+  <img src="assets/generated_style.gif" width="100%"/>
 </p>
 
 This repository contains the code, experimental setup, and results associated with the research project:
