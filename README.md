@@ -159,8 +159,8 @@ For visualization of results, all result visualizations are stored in the `./res
 
 | Architecture | Losses | FID Curve | Generated Sample |
 |-------------|--------|-----------|------------------|
-| **StyleGAN2** E4| <img src="results/stylegan2_ada/losses/losses_StyleE4.png" width="90%"/>  | <img src="results/stylegan2_ada/line_graph/FID_style.png" width="90%"/> | <img src="experiments/stylegan2_ada/E4/generated_samples/generate00010_000048.png" width="90%"/> |
-| **MedGAN**  M2      | <img src="results/medgan/losses/loss_MedganM2.png" width="90%"/> | <img src="results/medgan/line_graph/FID_medgan.png" width="90%"/>            | <img src="experiments/medgan/M2/generated_samples/generated_1095.png" width="90%"/> |
+| **StyleGAN2** E4| <img src="results/stylegan2_ada/losses/losses_StyleE4.png" width="90%"/>  | <img src="results/stylegan2_ada/line_graph/FID_Style.png" width="90%"/> | <img src="experiments/stylegan2_ada/E4/generated_samples/generate00010_000048.png" width="90%"/> |
+| **MedGAN**  M2      | <img src="results/medgan/losses/loss_medganM2.png" width="90%"/> | <img src="results/medgan/line_graph/FID_medgan.png" width="90%"/>            | <img src="experiments/medgan/M2/generated_samples/generated_1095.png" width="90%"/> |
 | **WGAN**      W8    | <img src="results/wgan/losses/loss_wganW8.png" width="90%"/>          | <img src="results/wgan/line_graph/FID_wgan.png" width="90%"/>           | <img src="experiments/wgan/W8/generated_samples/generated_675.png" width="90%"/> |
 | **VQGAN**     VQ6    | <img src="results/vqgan/losses/loss_vqganV6.png" width="90%"/>        | <img src="results/vqgan/line_graph/FID_vqgan.png" width="90%"/>         | <img src="experiments/vqgan/VQ6/generated_samples/generated_v1_30.png" width="90%"/> |
 
