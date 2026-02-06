@@ -173,7 +173,7 @@ From this configuration, a dataset of 10,000 synthetic images was generated usin
 The generated images can be found in the following directory: `.\experiments\stylegan2_ada\E4\best_generated`.
 
 <p align="center">
-  <img src="assets/Ecos_generated.jpg" width="100%"/>
+  <img src="assets/Ecos_generated.png" width="100%"/>
 </p>
 
 ---
